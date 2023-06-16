@@ -1,19 +1,30 @@
-# Touchsenors_DataM
-Library package for the touch sensor
+# Touchsenors master package 
+Library package for the touchence sensor 
+
+hardware link: http://www.touchence.jp/en/products/cube03.html
 
 
 ![test drawio (31)](https://user-images.githubusercontent.com/47193436/159407992-8b329eaf-29ef-4362-852c-22d51ea92d5b.png)
 
 
+sensor has 8 detection points.
+
 # Objective:
 
-Library created to modulate the use of the Touchence sensors. 
+Library created to modulate the use of the Touchence sensors using python 
+
+inspired by this video: 
+(all rights reserved to touchence)
+
+https://www.youtube.com/watch?v=-jpk3o9CFCU&ab_channel=Touchence
 
 
 # Detailed discription: 
 Using this packge the user can easly get sensor feedback by calling the different functions incloded in the libraray.
 
 this library can be used without any knowldge of the commands used by the sensors. 
+
+the sensor uses usb serial communication.
 
 this library contains multiple functions and methods to control and display data from the sensor: 
 
